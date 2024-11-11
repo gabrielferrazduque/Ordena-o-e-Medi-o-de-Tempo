@@ -39,3 +39,4 @@ void selectionSort(int arr[], int n) {
         arr[i] = temp;
     }
 }
+return 

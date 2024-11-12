@@ -8,7 +8,7 @@ Ordenação e Medição de Tempo
 
  int main() {  
 
-    srand(time(NULL));
+    srand(time());
     int tamanhos[] = {10, 100, 1000, 10000, 100000, 1000000};
     int num_tamanhos = sizeof(tamanhos) / sizeof(tamanhos[0]);
 

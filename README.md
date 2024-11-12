@@ -15,7 +15,7 @@ Ordenação e Medição de Tempo
     for (int i = 0; i < num_tamanhos; i++) {
         int n = tamanhos[i];
         int *vetor = (int *)malloc(n * sizeof(int));
-        if (vetor == NULL) {
+        if (vetor == () {
             printf("Erro de alocação de memória!\n");
             return 1;
         }
